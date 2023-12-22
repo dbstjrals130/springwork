@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri Dec 22 17:12:26 KST 2023
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\user1\\.m2\\repository\\org\\springframework\\spring-web\\5.2.7.RELEASE\\spring-web-5.2.7.RELEASE.jar=C\:\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\jwspring\\WEB-INF\\lib\\spring-web-5.2.7.RELEASE.jar
+org.eclipse.jst.jee.server\:jwspring=C\:\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\jwspring
