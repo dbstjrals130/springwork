@@ -21,6 +21,8 @@ C:\springworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3659375430.
 \jwspring2\src\main\java
 C:\springworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4030661707.index
 \Springboard-jdbc\src\main\java
+C:\springworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1184920394.index
+\SpringBoard-mybatis\src\main\java
 C:\springworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3375531305.index
 \jwspring2\src\main\java
 C:\springworks\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3504215221.index
