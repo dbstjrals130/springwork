@@ -7,25 +7,27 @@
 <title>글쓰기</title>
 </head>
 <body>
-	<div id="content">
+    <jsp:include page="../layout/header.jsp" />
+	<div id="container">
 		<h2>글쓰기</h2>
 		<form action="/board/write" method="post">
 		<table class="tbl_write">
 			<tr>
 				<td>
-					<input type="text" name="boardTitle" placeholder="글 제목">
+					<input type="text" name="boardTitle" 
+						placeholder="글 제목" required>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<input type="text" name="boardWriter" value="${sessionId}">
+					<input type="text" name="userId" value="${sessionId}">
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<textarea area rows="5" cols="50" name="boardContent"
-							placeholder="글 내용"></textarea>
-				</td>			
+					<textarea rows="5" cols="50" name="boardContent"
+							placeholder="글 내용" required></textarea>
+				</td>
 			</tr>
 			<tr>
 				<td colspan="2">
@@ -36,5 +38,6 @@
 		</table>
 		</form>
 	</div>
+	<jsp:include page="../layout/footer.jsp" />
 </body>
 </html>

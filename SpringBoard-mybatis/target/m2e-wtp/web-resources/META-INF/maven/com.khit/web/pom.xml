@@ -82,22 +82,6 @@
 			</exclusions>
 			<scope>runtime</scope>
 		</dependency>
-		
-		<!-- mysql-connector-j -->
-		<dependency>
-		    <groupId>com.mysql</groupId>
-		    <artifactId>mysql-connector-j</artifactId>
-		    <version>8.2.0</version>
-		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
-		<dependency>
-    		<groupId>org.springframework</groupId>
-    		<artifactId>spring-jdbc</artifactId>
-    		<version>${org.springframework-version}</version>
-		</dependency>
-		
-
 		<!-- org.projectlombok/lombok -->
 		<dependency>
 		    <groupId>org.projectlombok</groupId>
@@ -105,26 +89,31 @@
 		    <version>1.18.30</version>
 		    <scope>provided</scope>
 		</dependency>
-
-		<!-- spring-test -->
+		<!-- mysql-connector-j -->
+		<dependency>
+		    <groupId>com.mysql</groupId>
+		    <artifactId>mysql-connector-j</artifactId>
+		    <version>8.2.0</version>
+		</dependency>
+		<!-- spring-jdbc -->
 		<dependency>
 		    <groupId>org.springframework</groupId>
-		    <artifactId>spring-test</artifactId>
+		    <artifactId>spring-jdbc</artifactId>
 		    <version>${org.springframework-version}</version>
-		</dependency>  
-
+		</dependency>
+		
 		<!-- mybatis -->
 		<dependency>
-    		<groupId>org.mybatis</groupId>
-    		<artifactId>mybatis</artifactId>
-    		<version>3.5.10</version>
+		    <groupId>org.mybatis</groupId>
+		    <artifactId>mybatis</artifactId>
+		    <version>3.5.10</version>
 		</dependency>
 		
 		<!-- mybatis-spring -->
 		<dependency>
-    		<groupId>org.mybatis</groupId>
-    		<artifactId>mybatis-spring</artifactId>
-    		<version>2.1.0</version>
+		    <groupId>org.mybatis</groupId>
+		    <artifactId>mybatis-spring</artifactId>
+		    <version>2.1.0</version>
 		</dependency>
 		
 		<!-- @Inject -->
@@ -159,7 +148,13 @@
 			<artifactId>junit</artifactId>
 			<version>4.13</version>
 			<scope>test</scope>
-		</dependency>        
+		</dependency>  
+		<!-- spring-test -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-test</artifactId>
+		    <version>${org.springframework-version}</version>
+		</dependency>      
 	</dependencies>
     <build>
         <plugins>

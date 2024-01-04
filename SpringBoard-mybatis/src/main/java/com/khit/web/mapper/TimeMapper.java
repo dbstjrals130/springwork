@@ -4,5 +4,4 @@ package com.khit.web.mapper;
 public interface TimeMapper {
 	//시간 출력 메서드
 	public String getTime();
-	
 }

@@ -11,8 +11,9 @@
 	<h3>
 		<button onclick="update()">회원정보 수정</button>
 		<button onclick="logout()">로그아웃</button>
+		<a href="/"><button>Home</button></a> 
 	</h3>
-
+	
 	<script>
 		const logout = () => {
 			location.href = "/user/logout";
@@ -21,7 +22,7 @@
 		const update = () => {
 			location.href = "/user/update";
 		}
-		
+	
 	</script>
 </body>
 </html>

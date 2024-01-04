@@ -20,16 +20,17 @@ public class DataSourceTest {
 	
 	@Autowired
 	private DataSource ds;
-
+	
 	@Test
 	public void testDataSource() {
 		try {
 			Connection con = ds.getConnection();
-			log.info("楷搬 按眉 积己 : " + con);
+			log.info("楷搬 按眉 积己:" + con);
 			
 			con.close();
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 	}
+	
 }
